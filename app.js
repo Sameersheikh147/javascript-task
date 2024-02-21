@@ -119,6 +119,26 @@ var alldata = (firstName , lastName ,email, phone , pwrd );
 alert(alldata , "this is all data alert box");
 
 
+// 1. Declare a variable "caseQty"
+var caseQty;
+
+// 2. Assign to the variable caseQty, which has already been declared, the value 144
+caseQty = 144; 
+document.write (caseQty);
+
+// 3. Rewrite this statement so the variable can be used in a math operation. 
+var num = 9; // Removed the quotation marks around 9 to make it a number instead of a string
+
+
+
+
+var merchTotal = 100;
+var shippingCharge = 10;
+var orderTotal = merchTotal + shippingCharge;
+
+document.write (orderTotal);
+
+
 
 
 
